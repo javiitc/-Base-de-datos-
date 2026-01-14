@@ -5,6 +5,7 @@ public class Metodos {
      * @param passwords array dónde se guardan las contraseñas
      * @param usuario el 'input' del usuario
      * @param password el 'input' para la contraseña
+     * @return devuelve true o false para parar, o continuar, el bucle inicioSesion del Main
      */
     public static boolean comprobacion (String usuarios[], String passwords [], String usuario, String password) {
         boolean loginCorrecto = false;
